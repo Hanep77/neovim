@@ -13,6 +13,8 @@ return {
     "hrsh7th/nvim-cmp",
     config = function()
       local cmp = require("cmp")
+      require("luasnip").filetype_extend("javascriptreact", { "html" })
+      require("luasnip").filetype_extend("typescriptreact", { "html" })
       require("luasnip.loaders.from_vscode").load()
       cmp.setup({
         snippet = {

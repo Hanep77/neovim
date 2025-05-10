@@ -21,9 +21,9 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
-      lspconfig.tailwindcss.setup({
-        capabilities = capabilities
-      })
+      -- lspconfig.tailwindcss.setup({
+      --   capabilities = capabilities
+      -- })
       lspconfig.ts_ls.setup({
         capabilities = capabilities
       })
