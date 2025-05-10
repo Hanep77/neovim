@@ -1,0 +1,10 @@
+vim.keymap.set({ "i" }, "<C-s>", "<Esc>:w<ENTER>")
+vim.keymap.set({ "n" }, "<C-s>", ":w<ENTER>")
+vim.keymap.set("n", "<LEADER>e", ":Neotree toggle <CR>")
+vim.keymap.set("n", "<C-k>", ":wincmd k<CR>")
+vim.keymap.set("n", "<C-j>", ":wincmd j<CR>")
+vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
+vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
+
+vim.api.nvim_set_keymap("n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })

@@ -7,7 +7,10 @@ vim.o.autoindent = false
 vim.o.list = false
 vim.o.cursorline = false
 vim.b.autoformat = false
-vim.o.clipboard="unnamedplus"
+vim.o.clipboard = "unnamedplus"
 
 local opt = vim.opt
 opt.wrap = false
+opt.number = true
+opt.relativenumber = true
+opt.undofile = true
