@@ -8,12 +8,9 @@ Here are some of the key plugins used in this config:
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) – Treesitter support
 - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) – Fuzzy finder
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) – LSP configuration
-- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) – Completion engine
-- [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) – Snippet engine
+- [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp) – Completion engine
+- [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) – Snippet engine
 - [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) – Statusline
-- [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) – File icons
-- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) – Git integration
-- [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) – Easy commenting
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) – Auto pair brackets
 
 > You can find the full list in the `lua/plugins/` directory.
