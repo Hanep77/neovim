@@ -14,3 +14,4 @@ opt.wrap = false
 opt.number = true
 opt.relativenumber = true
 opt.undofile = true
+opt.termguicolors = true
