@@ -20,6 +20,8 @@ return {
 				emmet_language_server = {},
 				eslint = {},
 				tailwindcss = {},
+				jedi_language_server = {},
+				intelephense = {},
 			},
 		},
 		config = function(_, opts)
