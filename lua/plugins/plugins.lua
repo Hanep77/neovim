@@ -4,12 +4,11 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-    require("onedark").setup({
-    style = "warmer",
-    transparent_background = true,
-    })
-    require("onedark").load()
+      require("onedark").setup({
+        style = "darker",
+        transparent = true,
+      })
+      require("onedark").load()
     end,
   },
 }
-
