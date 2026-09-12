@@ -19,7 +19,13 @@ return {
         ts_ls = {},
         emmet_language_server = {},
         eslint = {},
-        tailwindcss = {},
+        tailwindcss = {
+          on_attach = function(_, bufnr)
+            vim.lsp.document_color.enable(false, {
+              bufnr = bufnr,
+            })
+          end,
+        },
         jedi_language_server = {},
         intelephense = {},
       },
