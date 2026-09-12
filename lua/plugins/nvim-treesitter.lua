@@ -19,6 +19,7 @@ return {
       "markdown_inline",
       "vim",
       "vimdoc",
+      "python",
     })
 
     vim.api.nvim_create_autocmd("FileType", {
@@ -33,6 +34,7 @@ return {
         "bash",
         "markdown",
         "vim",
+        "python",
       },
       callback = function()
         vim.treesitter.start()
